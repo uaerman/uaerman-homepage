@@ -1,0 +1,19 @@
+{
+  "name": "uaerman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uaerman/uaerman.tech.git"
+  },
+  "author": "UAE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uaerman/uaerman.tech/issues"
+  },
+  "homepage": "https://github.com/uaerman/uaerman.tech#readme"
+}
