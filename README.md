@@ -10,7 +10,7 @@ Just my personal homepage
 
 
 
-Site: https://uaerman.tech
+Site: https://uaerman.dev
 
 ### Used in project
 
