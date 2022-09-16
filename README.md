@@ -1,4 +1,4 @@
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 10px 0;" alt="Nobara" src="https://avatars.githubusercontent.com/u/34603648?v=4">
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 10px 0;" alt="Nobara" src="https://cdn.uaerman.dev/images/profile.jpeg">
 
 # UÆRMAN
 
