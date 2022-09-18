@@ -6,6 +6,7 @@ const getIndexPage = async (req, res) => {
         data
     })
 }
+
 const get404Page = (req, res) => {
     res.status(404).render('404')
 }
