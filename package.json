@@ -5,7 +5,10 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "npm i && node app.js",
+    "pm2": "pm2 start ecosystem.config.cjs",
+    "dev": "nodemon app.js --exec  \"npm run lint && node\"",
+    "lint": "eslint ./*.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
     "mongoose": "^6.6.0"
   },
   "devDependencies": {
+    "eslint": "^8.26.0",
     "nodemon": "^2.0.19"
   }
 }
