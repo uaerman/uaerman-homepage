@@ -30,15 +30,15 @@ It's actually a very simple project, I don't think you'll have any difficulties 
 
 1. Create `.env` file in project 
 
-​	```js
+```js
 
-​	PORT=Project port
+PORT=Project port
 
-​	DB_URI=MongoDB Url
+DB_URI=MongoDB Url
 
-​	```
+```
 
-2. Then if you directly start project use `npm start` command but if you want develop something use `npm run dev`command either way npm packages installing automatically
+2. Then if you want directly start project use `npm start` command but if you want develop something use `npm run dev`command either way npm packages installing automatically
 3. Done
 
 ### Support
