@@ -49,11 +49,19 @@
           Current coding languages I learning <span class="gold-text">JavaScript, </span> <span class="belize-hole-text">TypeScript,</span> </span> <span class="green-sea-text">VueJS,</span> <span class="emerald-text">NodeJS, ExpressJS,</span>  <span class="spotify-text">MongoDB</span> and <span class="spotify-text">MySQL</span>.
         </p></div>
       </div>
+      <div class="box-container">
+        <h2 class="title emerald-text"><i class="emoji cookie"></i> Work:</h2>
+        <div class="info-container">
+        <% for (item of workData) { %>
+          <p><a class="emerald-text bold" target="_blank"><%= item.company %></a> (<a class="linkedin-text italic"><%= item.position %></a>) - <a class="linkedin-text"><%= item.startDate %></a>/<a class="<%= item.endDate ? 'linkedin-text' : 'disco-ball-text italic' %>"><%= item.endDate || 'Present' %></a></p>
+          <% } %> 
 
+        </div>
+      </div>
       <div class="box-container">
         <h2 class="title emerald-text"><i class="emoji uwu"></i> Projects:</h2>
         <div class="info-container">
-        <% for (item of data) { %>
+        <% for (item of projData) { %>
           <p><a href="<%= item.url %>" target="_blank"><%= item.name %></a>, <%= item.desc %></p>
           <% } %> 
 

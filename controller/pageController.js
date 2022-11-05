@@ -1,9 +1,11 @@
-import { Proj } from '../models/mognooseModels.js'
+import { Proj, Work } from '../models/mognooseModels.js'
 
 const getIndexPage = async (req, res) => {
-    const data = await Proj.find()
+    const projData = await Proj.find()
+    const workData = await Work.find()
     res.render("index", {
-        data
+        projData,
+        workData
     })
 }
 
