@@ -1,8 +1,6 @@
 import express from "express";
 import dotenv from "dotenv"
-import errorRoute from './routes/errorRoute.js'
 import pageRoute from "./routes/pageRoute.js"
-import socialRoute from "./routes/socialRouter.js"
 import conn from "./db.js"
 
 dotenv.config()
@@ -21,8 +19,6 @@ app.use(express.static('public'));
 
 //routes
 app.use('/', pageRoute)
-app.use('/social', socialRoute)
-app.use('*', errorRoute)
 
 app.listen(port, () => {
     console.log((`Application running on port: ${port}`))
