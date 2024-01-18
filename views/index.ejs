@@ -21,12 +21,11 @@
           </section>
           <div class="buttons">
             <!-- <span class="btn sun-flower-dropshadow black-text animation hover" onclick="scroll_to('branding')">Branding</span> -->
-            <a href="/patreon" class="btn patreon-dropshadow black-text animation hover" target="_blank">Patreon</a>
-            <a href="/discord" class="btn discord-dropshadow black-text animation hover" target="_blank">Discord</a>
-            <a href="/twitter" class="btn twitter-dropshadow black-text animation hover" target="_blank">Twitter</a>
-            <a href="mailto:me@umurcan.dev" class="btn emerald-dropshadow black-text animation hover">Email</a>
-            <a href="/github" class="btn github-dropshadow white-text animation hover" target="_blank">GitHub</a>
-            <a href="/youtube" class="btn youtube-dropshadow white-text animation hover" target="_blank">YouTube</a>
+            <a href="<%=process.env.DISCORD%>" class="btn discord-dropshadow black-text animation hover" target="_blank">Discord</a>
+            <a href="<%=process.env.TWITTER%>" class="btn twitter-dropshadow black-text animation hover" target="_blank">Twitter</a>
+            <a href="mailto:ermanumur@gmail.com" class="btn emerald-dropshadow black-text animation hover">Email</a>
+            <a href="<%=process.env.GITHUB%>" class="btn github-dropshadow white-text animation hover" target="_blank">GitHub</a>
+            <a href="<%=process.env.YOUTUBE%>" class="btn youtube-dropshadow white-text animation hover" target="_blank">YouTube</a>
           </div>
         </div>
       </div>

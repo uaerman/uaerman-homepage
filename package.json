@@ -5,9 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "npm i && node app.js",
+    "start": "node app.js",
     "pm2": "pm2 start ecosystem.config.cjs",
-    "dev": "npm i && nodemon app.js --exec  \"npm run lint && node\"",
+    "dev": "nodemon app.js --exec  \"npm run lint && node\"",
     "lint": "eslint ./*.js"
   },
   "repository": {

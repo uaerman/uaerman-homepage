@@ -9,7 +9,7 @@ dotenv.config()
 conn()
 
 const app = express();
-const port = process.env.PORT
+const port = 3000
 
 //Ejs template engine
 app.set("view engine", "ejs");
